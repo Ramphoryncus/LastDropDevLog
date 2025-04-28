@@ -21,7 +21,7 @@ We were told to read the Game Design Document compiled by the Game Design studen
 
 ---
 ### Week 3 - 4
-I was partnered with Sidd Ghosalkar to assist him with a water bubble mechanic where the bubble grows in size as it takes on water. Sidd did all of the blueprinting but there was one issue where the bubble was not increasing in size. I had a quick look at the blueprint and he had a check bubble size with a greater than ( > ) node I suggested it should be greater than or equal to ( >= ) and it appeared to fix the problem that he was experiencing. Unfortunately I do not have any evidence of this as this blueprint and it is no longer being used in the project. I did not take a screenshot of it at the time to support this.
+I was partnered with Sidd Ghosalkar to assist him with a water bubble mechanic where the bubble grows in size as it takes on water. Sidd did all of the blueprinting but there was one issue where the bubble was not increasing in size. I had a quick look at the blueprint and he had a check bubble size with a greater than ( > ) node I suggested it should be greater than or equal to ( >= ) and it appeared to fix the problem that he was experiencing. Unfortunately I do not have any evidence of this blueprint and it is no longer in or being used in the project. I did not take a screenshot of it at the time to support this.
 
 I was asked to test the SAP bubble boost jump mechanic and the level that it would be used in, which was Spring, by Ihor our project coordinator. I spoke directly with Esme who I was told was responsible for the spring level and asked her to inform me when it was ready to be tested... I received no notification of its state of readiness and therefore could not test the level at that point.
 
