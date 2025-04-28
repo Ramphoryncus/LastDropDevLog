@@ -100,16 +100,16 @@ It was at this point that I discovered a fatal flaw with all of the levels, some
 One cube to rule them all. One cube to find them. One cube to bring them all, and in the darkness bind them... my precious.
 
 ### Winter
-There are a few issues I found with the winter level. There were not enough checkpoints in my opinion so I added a few extra ones, either they didn't get pushed properly or they got removed. There was an issue with ice ball coming out of the pipes where there would have been an infinite drop, through a kill box that did not register the ice bubble. I did make Ethan aware of this, which he subsequently fixed. There was a jump to a moving platform (BP_ActivatableMoving), above the choppers, crushers and conveyor belts that was activated when you are an ice bubble that you either made or didn't as BP_BodyChar with no killbox and no way back, it was on the very limit of the player jump distance so I adjusted the distance so that there was no drop. This was adjusted again after I made that adjustment and a kill box was added, with a checkpoint that puts you back to having to do all the ice bubble choppers, crushers and conveyor belts again.
+There are a few issues I found with the winter level. There were not enough checkpoints in my opinion so I added a few extra ones, either they didn't get pushed properly or they got removed. There was an issue with ice ball coming out of the pipes where there would have been an infinite drop, through a kill box that did not register the ice bubble. I did make Ethan aware of this, which he subsequently fixed. There was a jump to a moving platform (BP_ActivatableMoving), above the choppers, crushers and conveyor belts that was activated when you are an ice bubble that you either made or didn't as BP_BodyChar with no killbox and no way back, it was on the very limit of the player jump distance so I adjusted the distance so that there was no drop. This was adjusted again after I made that adjustment and a kill box was added, with a checkpoint that puts you back to having to do all the ice bubble choppers, crushers and conveyor belts again. Not how I had it.
 
 ### Summer
 Between 1000 and 3000+ lights needed to be rebuilt on this level not sure why that was but some of the areas were very dark and obviously missing lighting or just needed to be rebuilt. I did add one rectangular light, maybe I should have added more.
 
 ![SummerLight](https://github.com/user-attachments/assets/c8eab7ef-2afe-41b3-8b76-4b6756ac4e93)
 
-It is awfully dark in the Summer level
+It is awfully dark in the Summer level.
 
-I did add a few extra checkpoints in the summer level, I think there are all there but some of them were moved. For instance this one, I had originally placed it at the curved pipe on the right, now it appears at the sliding door on the far left. I did not see the need for the player to walk all the way along those pipes, again, especially after they would have fallen down through the gaps of the cogs/platform that followed, which were not lit at all, and that is why I put that rectangular light there.
+I did add a few extra checkpoints in the summer level, I think there are all there but some of them were moved or just errors in the push to GitHub. For instance this one, I had originally placed it at the curved pipe on the right, now it appears at the sliding door on the far left. I did not see the need for the player to walk all the way along those pipes, again, especially after they would have fallen down through the gaps of the cogs/platform that followed, which were not lit at all, and that is why I put that rectangular light there.
 
 ![SummerMovedCheckpoint](https://github.com/user-attachments/assets/ff802e48-3129-40a0-a8c3-ad4d45284251)
 
