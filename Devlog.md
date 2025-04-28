@@ -128,3 +128,5 @@ Concerning the BP_WindTurbineCharacter when activated they were not rotating con
 
 Not my blueprint I just made the above alteration. 
 https://blueprintue.com/blueprint/dk5haaaf/
+
+It was at this point that I also added the fan sound to the project in the hope that it would only play when the BP_WindTurbineCharacter were activated, that was not the case. I removed the play sound at location on the BP_wind turbine character but the fan sound persists and it has not even been assigned it's sound attenuator so it's basically like some kind of trance inducing hypnotic background music may be? That was not what I intended. I still can't hear it through my headphones only my speakers.
