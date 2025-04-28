@@ -57,3 +57,7 @@ Cowling Texture and UV
 Fan Sound audio file screen shot from Audacity
 ![FanSoundAudacity](https://github.com/user-attachments/assets/13d4096e-057c-41e8-8ca3-440660665187)
 
+Short OBS recording of Fan Sound frim raw to all effects used
+https://github.com/user-attachments/assets/25e75ec4-55f4-40f8-92b3-34c82dfc9cf9
+
+
