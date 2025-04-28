@@ -67,4 +67,29 @@ I recorded myself blowing onto a reasonably sized pedestal fan. I slowed the tem
 I kind of went off the reservation from week 7 to 9. I really didn't feel like being there and none of the levels had been uploaded to the main file of the GitHub repository. However they were uploaded during the scheduled lecture of week nine. This was quite disheartening.
 
 ### Week 9 - 12
-I started playing through the levels. Spring was my first stop. There were no checkpoints, no kill boxes, issues with layouts where the player couldn't progress through the level. I corresponded with Dylan and Esme informing them of my findings and the changes that I made to the level. Concerning checkpoints and kill boxes, somebody did put a kill box with a checkpoint in so I duplicated that with reasonably situated corresponding checkpoints so the player didn't have to keep going back to redo part of the level where they've already been. I lowered the height of the switch used to activate BP_HitButtonPlat as it was too high for the player to reach even with the SAP boosted jump. I discussed with Dylan the jumping platforms which the player could not reach boosted jump or not. I suggested that he remove the lower jumping platform, lower the static platform above it so the player could jump to it with the boosted jump and make the higher moving platforms possible for the player to jump on them without using the boosted jump because they would be too far away from the SAP dispenser to then give themselves another boosted jump to reach these platforms which would not be reachable otherwise.
+My first discovery was that the mouse cursor was disappearing when the bubble burst through either, exceeding the distance limit, or being popped by the player using right click on the mouse. This is not optimal when you are using a mouse to control a part of your player character so I added a couple of show mouse cursor nodes.
+
+One in the BP_BubbleChar
+https://blueprintue.com/blueprint/kllwghcl/
+
+One in the BP_BodyChar
+https://blueprintue.com/blueprint/sxj-b_j7/
+
+The mouse cursor is on the screen at all times. I had considered creating a custom icon/widget for the mouse cursor but that was not vitally important, seeing the mouse cursor was so I fixed it.
+
+I started playing through the levels. Spring was my first stop. 
+
+### Spring
+There were no checkpoints, no kill boxes, issues with layouts where the player couldn't progress through the level. I corresponded with Dylan and Esme informing them of my findings and the changes that I thought should made to the level, because I did not want to make too many necessary but drastic changes to their creation. Concerning checkpoints and kill boxes, somebody did put a kill box with a checkpoint in so I duplicated that with reasonably situated corresponding checkpoints so the player didn't have to keep going back to redo part of the level where they've already been. I lowered the height of the switch used to activate BP_HitButtonPlat as it was too high for the player to reach even with the SAP boosted jump.
+
+I discussed with Dylan the jumping platforms which the player could not reach boosted jump or not. I suggested that he remove the lower jumping platform, lower the static platform above it so the player could jump to it with the boosted jump and make the higher moving platforms possible for the player to jump on them without using the boosted jump because they would be too far away from the SAP dispenser to then give themselves another boosted jump to reach these platforms which would not be reachable otherwise. He did not do that. As far as I can figure he adjusted the length of time that the SAP boost jump remains effective for the player so the they can make their way past these jumping platforms with one SAP drop, have to be quick though. Dylan adjusted the moving platforms but the lowest moving platform had to be raised slightly because the player would not be able to make the jump from it to the static platform. Before he made these changes, however, I did add a chackpoint and SAP dispenser at the final part of the level with the moving platforms so the player could reach the switches to activate the moving platforms. These have subsequently been removed or did not get pushed properly to GitHub, not sure, but at least I took a screenshot of it this time. I made some minor adjustments to the already existing SAP dispenser just shrunk it down a little and added all the rest of the meshes and Sap Decal, to match the other SAP dispensers earlier in the level for continuity.
+
+![SapDispenserSpring](https://github.com/user-attachments/assets/53922fea-9c54-418f-8539-737f073641dc)
+
+I did also discovered that the start/end points for the jumping platforms and the end platforms had collisions turned on, which the player could jump upon so I set the collisions to Custom and Ignore All so the player can't jump on these hidden in game meshes.
+
+It was at this point that I discovered a fatal flaw with all of the levels, somehow either Unreal Engine or someone had offset the mesh of a cube or cubes corresponding to their collision volumes. This meant that the player would not be able to proceed through any of the sliding doors or properly pickup pickups and would collide with things that they can't see because the collision volumes were sticking out of everywhere. I posted a message in discord and Jakub responded saying that I would have to reset the pivot points in Modelling on the cube mesh, this was not the case however, I had to reposition the mesh so that it lined up witht the collision volume. Thankfully when I fixed one, it fixed them all.
+
+![OffsetCollision](https://github.com/user-attachments/assets/35ab1135-bc09-4044-9791-6435261497f7)
+
+One cube to rule them all. One cube to find them. One cube to bring them all, and in the darkness bind them... my precious.
