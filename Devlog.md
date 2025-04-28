@@ -16,6 +16,20 @@ For the offending box I reduced it in size and moved the larger cube next to it 
 ![OffendingBox](https://github.com/user-attachments/assets/f76ecb75-f46c-45dc-a9f2-935c4e646cc7)
 
 I ended up having to do these again in week two and week three because there were some issues with the project.
----
-### Week 4
 
+We were told to read the Game Design Document compiled by the Game Design students, so I read it in full. They came up with a lot of ideas and mechanics. I had a discussion with Ethan, one of the games design project coordinators, about streamlining all of these ideas picking one mechanic for each level and choosing the most achievable mechanics that they came up with for us, as developers, to work on.
+
+---
+### Week 3 - 4
+I was partnered with Sidd Ghosalkar to assist him with a water bubble mechanic where the bubble grows in size as it takes on water. Sidd did all of the blueprinting but there was one issue where the bubble was not increasing in size. I had a quick look at the blueprint and he had a check bubble size with a greater than ( > ) node I suggested it should be greater than or equal to ( >= ) and it appeared to fix the problem that he was experiencing. Unfortunately I do not have any evidence of this as this blueprint and it is no longer being used in the project. I did not take a screenshot of it at the time to support this.
+
+I was asked to test the SAP bubble boost jump mechanic and the level that it would be used in, which was Spring, by Ihor our project coordinator. I spoke directly with Esme who I was told was responsible for the spring level and asked her to inform me when it was ready to be tested... I received no notification of its state of readiness and therefore could not test the level at that point.
+
+### Week 4 - 6
+I was assigned the task of creating a fan which would affect the player by means of wind or add force. It took me a little while to get going admittedly but I constructed a fan in Maya and used a simple add force node with collision box. At first I tried to use the directional wind source that I had seen in a YouTube video but you need the mega scans of foliage in the project at the start to be able to reference the directional wind source in a separate blueprint. It was a simple blueprint I was only asked to add a fan with no activate or deactivate mechanics on it although I wanted to I wasn't asked to do anything other than add a fan. But I did do some sound recordings of various fans that I have around my home to create an audio loop for the sound of the fan which I altered using Audacity and I added the file to the project I also made a Sound Attenuator to partner with the fan sound file. I informed David Didu, one of our two audio programmers, that I had created an audio file for the fan sound and ultimately emailed him the original file from audacity and the.WAV so he had access to both for the project. I did this so he had access to it whether it made into the project or not, as there was some issues going on with GitHub or at least going on with me, and I was having some issues with the fan sound coming out of my speakers but not my headphones and I could not figure it out but maybe David could.
+
+This is my working blueprint
+https://blueprintue.com/blueprint/wd3lzvnr/
+
+This is the unfinished blueprint trying to call the wind directional source which I later realised I needed the mega scans foliage in the project which we did not have.
+https://blueprintue.com/blueprint/31rdc27t/
