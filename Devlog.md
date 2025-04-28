@@ -4,7 +4,7 @@
 ### Week 1 - 3
 I was assigned the role of QA. My first task was to play through the initial level that we received in the last drop project of the unknown facility and find any issues. There were a couple of things that I found:
 1. The BP_Activatable_Platform when it collided with the player the player popped out on top of the platform which is kind of fourth wall breaker.
-2. There was a minor issue with a box that the player could get stuck between the BP_MovingPlatform and the offending box.
+2. There was a minor issue with a box where the player could get stuck between the BP_MovingPlatform and the offending box.
 
 For the BP_Activatable_Platform I added a collision box and used the On Component Begin Overlap event to activate a respawn at a billboard this is a temporary measure and could be used by anyone in conjunction with the checkpoint system that I knew was going to be created.
 https://blueprintue.com/blueprint/0ecqbirs/
