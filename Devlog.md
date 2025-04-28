@@ -132,3 +132,14 @@ https://blueprintue.com/blueprint/dk5haaaf/
 It was at this point that I also added the fan sound in the hope that it would only play when the BP_WindTurbineCharacter were activated, that was not the case. I removed the play sound at location on the BP_wind turbine character but the fan sound persists and it has not even been assigned it's sound attenuator so it's basically like some kind of trance inducing hypnotic background music may be? That was not what I intended. I still can't hear it through my headphones only my speakers.
 
 ### Autumn
+This one was a little bit of a shock, 45,237 lights needed to be rebuilt... Holy shhh!! Aside from that the lighting that I saw and the level seemed to be okay. There were a couple of issues that I found. I noticed that my Death/Respawn at billboard test blueprint had been reappropriated for the BP_Door. I only found this out when I walked into one of these BP_Doors and found myself teleported into the door unable to move and in a constant collision with it so I was never going to move. I had a look at the blueprint, low and behold, there it was with my comment box so I knew it was mine. I promptly disconnected the executor which solved that problem immediately. 
+
+Disconnected Death
+
+![OldDeathRespawnSurprise](https://github.com/user-attachments/assets/b0dd3eba-9438-4f23-9bdc-4212255718f2)
+
+Cheeky Respawn Camel
+
+![RespawnCamelBillboard](https://github.com/user-attachments/assets/e7bb9e7a-4026-45f6-ad9a-04c1e7ae8710)
+
+I did leave the blueprint nodes in place and just in case whoever used it did want to use it properly at some point in the future. Removing the executor made no significant difference to that part of the level. There would have been an issue with a lack of pickups, If you drop the first one without activating the second switch in front of one of the BP_WindTurbines you were stranded. Fortunately this was fixed by someone else. I would have done the same, two extra cubes simple. If it had not been then the player would have been stuck there whether they were in a wall or not. Fun fact, this level has no checkpoints and you cannot die, but before the pickups issue was solved you could have been stuck at the BP_Doors and BP_WindTurbines forever.
