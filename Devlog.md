@@ -86,10 +86,21 @@ I discussed with Dylan the jumping platforms which the player could not reach bo
 
 ![SapDispenserSpring](https://github.com/user-attachments/assets/53922fea-9c54-418f-8539-737f073641dc)
 
-I did also discovered that the start/end points for the jumping platforms and the end platforms had collisions turned on, which the player could jump upon so I set the collisions to Custom and Ignore All so the player can't jump on these hidden in game meshes.
+I did also discovered that the start/end points for the jumping platforms and the end platforms had collisions turned on, which the player could jump upon so I set the collisions to Custom and Ignore All so the player can't jump on these Hidden in Game meshes.
+
+Screenshot taken after Cube mesh/Collision fix.
+
+![SpringEndPlatforms](https://github.com/user-attachments/assets/f41d196a-7e90-4ba8-8b56-d9a8d38b2513)
+
 
 It was at this point that I discovered a fatal flaw with all of the levels, somehow either Unreal Engine or someone had offset the mesh of a cube or cubes corresponding to their collision volumes. This meant that the player would not be able to proceed through any of the sliding doors or properly pickup pickups and would collide with things that they can't see because the collision volumes were sticking out of everywhere. I posted a message in discord and Jakub responded saying that I would have to reset the pivot points in Modelling on the cube mesh, this was not the case however, I had to reposition the mesh so that it lined up witht the collision volume. Thankfully when I fixed one, it fixed them all.
 
 ![OffsetCollision](https://github.com/user-attachments/assets/35ab1135-bc09-4044-9791-6435261497f7)
 
 One cube to rule them all. One cube to find them. One cube to bring them all, and in the darkness bind them... my precious.
+
+### Winter
+There are a few issues I found with the winter level. There were not enough checkpoints in my opinion so I added a few extra ones, either they didn't get pushed properly or they got removed. There was an issue with ice ball coming out of the pipes where there would have been an infinite drop, through a kill box that did not register the ice bubble. I did make Ethan aware of this, which he subsequently fixed. There was a jump to a moving platform (BP_ActivatableMoving), above the choppers, crushers and conveyor belts that was activated when you are an ice bubble that you either made or didn't as BP_BodyChar with no killbox and no way back, it was on the very limit of the player jump distance so I adjusted the distance so that there was no drop. This was adjusted again after I made that adjustment and a kill box was added, with a checkpoint that puts you back to having to do all the ice bubble choppers, crushers and conveyor belts again.
+
+### Summer
+Between 1000 and 3000+ lights needed to be rebuilt on this level not sure why that was but some of the areas were very dark and obviously missing lighting or just needed to be rebuilt. I did add one rectangular light, maybe I should have added more.
