@@ -104,3 +104,13 @@ There are a few issues I found with the winter level. There were not enough chec
 
 ### Summer
 Between 1000 and 3000+ lights needed to be rebuilt on this level not sure why that was but some of the areas were very dark and obviously missing lighting or just needed to be rebuilt. I did add one rectangular light, maybe I should have added more.
+
+![SummerLight](https://github.com/user-attachments/assets/c8eab7ef-2afe-41b3-8b76-4b6756ac4e93)
+
+It is awfully dark in the Summer level
+
+I did add a few extra checkpoints in the summer level, I think there are all there but some of them were moved. For instance this one, I had originally placed it at the curved pipe on the right, now it appears at the sliding door on the far left. I did not see the need for the player to walk all the way along those pipes, again, especially after they would have fallen down through the gaps of the cogs/platform that followed, which were not lit at all, and that is why I put that rectangular light there.
+
+![SummerMovedCheckpoint](https://github.com/user-attachments/assets/ff802e48-3129-40a0-a8c3-ad4d45284251)
+
+
