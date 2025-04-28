@@ -67,7 +67,7 @@ I recorded myself blowing onto a reasonably sized pedestal fan. I slowed the tem
 I kind of went off the reservation from week 7 to 9. I really didn't feel like being there and none of the levels had been uploaded to the main file of the GitHub repository. However they were uploaded during the scheduled lecture of week nine. This was quite disheartening.
 
 ### Week 9 - 12
-My first discovery was that the mouse cursor was disappearing when the bubble burst through either, exceeding the distance limit, or being popped by the player using right click on the mouse. This is not optimal when you are using a mouse to control a part of your player character so I added a couple of show mouse cursor nodes.
+My first discovery was that the mouse cursor was disappearing when the bubble burst through either, exceeding the distance/lifespan limit, or being popped by the player using right click on the mouse. This is not optimal when you are using a mouse to control a part of your player character so I added a couple of show mouse cursor nodes.
 
 One in the BP_BubbleChar
 https://blueprintue.com/blueprint/kllwghcl/
@@ -75,7 +75,7 @@ https://blueprintue.com/blueprint/kllwghcl/
 One in the BP_BodyChar
 https://blueprintue.com/blueprint/sxj-b_j7/
 
-The mouse cursor is on the screen at all times. I had considered creating a custom icon/widget for the mouse cursor but that was not vitally important, seeing the mouse cursor was so I fixed it.
+The mouse cursor is on the screen at all times. I had considered creating a custom icon/widget for the mouse cursor but that was not vitally important, seeing the mouse cursor was, so I fixed it.
 
 I started playing through the levels. Spring was my first stop. 
 
@@ -113,4 +113,18 @@ I did add a few extra checkpoints in the summer level, I think there are all the
 
 ![SummerMovedCheckpoint](https://github.com/user-attachments/assets/ff802e48-3129-40a0-a8c3-ad4d45284251)
 
+I encountered a few irregularly scaled fans, I adjusted them to a uniform scale, because when they were spinning they did make me feel a little ill. They didn't look right it. The BP_WindTurbineCharacter meshes were also irregular they got the same treatment.
 
+Irregular Fan
+![IrregularFan](https://github.com/user-attachments/assets/d28e1a4b-1565-4a34-b6bc-1ec9013607e6)
+
+Uniform Fan
+
+![UniformFan](https://github.com/user-attachments/assets/1a00efb5-8f16-48ad-9214-7c30d20fdf9a)
+
+Concerning the BP_WindTurbineCharacter when activated they were not rotating continuously, it took me a little while to figure it out, in the end I adjusted the Timeline so it was a constant 1 and Looping. It didn't matter that they had a Timeline where it started from zero and then rotated to a full speed because they are never seen by the player when they start rotating. This was an easy fix to the problem rather than trying to figure out how to make it work properly via other means as in completely redoing the blueprint which was unnecessary. I did try a few different methods that did not work before this final solution. It was here that I found out about changing Gravity in the collision volume from my original fan, which had Add Force. To be honest I do not know if I would have thought of adjusting Gravity as an alternative. I probably would have kept plugging away at Add Force and trying to figure out how to move the BP_BodyChar with physics being simulated on the collision capsule.
+
+![WindTurbineTimeline](https://github.com/user-attachments/assets/7531f972-4ee5-48e4-916f-814fa45ed760)
+
+Not my blueprint I just made the above alteration. 
+https://blueprintue.com/blueprint/dk5haaaf/
