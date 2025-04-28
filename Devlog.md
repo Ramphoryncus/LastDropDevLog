@@ -57,8 +57,14 @@ Cowling Texture and UV
 Fan Sound audio file screen shot from Audacity
 ![FanSoundAudacity](https://github.com/user-attachments/assets/13d4096e-057c-41e8-8ca3-440660665187)
 
-Short OBS recording of Fan Sound frim raw to all effects used
+Short OBS recording of Fan Sound from raw to all effects used
 
 https://github.com/user-attachments/assets/25e75ec4-55f4-40f8-92b3-34c82dfc9cf9
 
 I recorded myself blowing onto a reasonably sized pedestal fan. I slowed the tempo from 42 down to 21 and added the phaser, compressor, wah wah and reverb effects with some slight adjustments to their settings to achieve the final sound.
+
+### Week 7 - 9
+I kind of went off the reservation from week 7 to 9. I really didn't feel like being there and none of the levels had been uploaded to the main file of the GitHub repository. However they were uploaded during the scheduled lecture of week nine. This was quite disheartening.
+
+### Week 9 - 12
+I started playing through the levels. Spring was my first stop. There were no checkpoints, no kill boxes, issues with layouts where the player couldn't progress through the level. I corresponded with Dylan and Esme informing them of my findings and the changes that I made to the level. Concerning checkpoints and kill boxes, somebody did put a kill box with a checkpoint in so I duplicated that with reasonably situated corresponding checkpoints so the player didn't have to keep going back to redo part of the level where they've already been. I lowered the height of the switch used to activate BP_HitButtonPlat as it was too high for the player to reach even with the SAP boosted jump. I discussed with Dylan the jumping platforms which the player could not reach boosted jump or not. I suggested that he remove the lower jumping platform, lower the static platform above it so the player could jump to it with the boosted jump and make the higher moving platforms possible for the player to jump on them without using the boosted jump because they would be too far away from the SAP dispenser to then give themselves another boosted jump to reach these platforms which would not be reachable otherwise.
