@@ -58,6 +58,7 @@ Fan Sound audio file screen shot from Audacity
 ![FanSoundAudacity](https://github.com/user-attachments/assets/13d4096e-057c-41e8-8ca3-440660665187)
 
 Short OBS recording of Fan Sound frim raw to all effects used
+
 https://github.com/user-attachments/assets/25e75ec4-55f4-40f8-92b3-34c82dfc9cf9
 
-
+I recorded myself blowing onto a reasonably sized pedestal fan. I slowed the tempo from 42 down to 21 and added the phaser, compressor, wah wah and reverb effects with some slight adjustments to their settings to achieve the final sound.
