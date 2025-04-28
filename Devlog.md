@@ -33,3 +33,25 @@ https://blueprintue.com/blueprint/wd3lzvnr/
 
 This is the unfinished blueprint trying to call the wind directional source which I later realised I needed the mega scans foliage in the project which we did not have.
 https://blueprintue.com/blueprint/31rdc27t/
+
+Low Poly Fan
+![LowPolyFan](https://github.com/user-attachments/assets/ce2623e9-27ee-4189-815d-db0f31b6c87a)
+
+High Poly Fan
+![HighPolyFan](https://github.com/user-attachments/assets/94b52111-88f4-41e8-9022-0151fb9a7858)
+
+Fan and Cowling
+![FanCowling](https://github.com/user-attachments/assets/0cb7b2d0-0e4e-4941-a7a3-fdb2f53d6c53)
+
+Final Fan and Cowling because I did not make the Cowling a 2 sided mesh
+![FullFanCowling](https://github.com/user-attachments/assets/18a3cdc1-4a97-4058-9bfc-e728db8ea5e5)
+
+Fan Texture and UV
+![TexturedFan](https://github.com/user-attachments/assets/8c3a2aaf-55fc-4232-b87b-1cc2a337ddf7)
+![TexturedFanUV](https://github.com/user-attachments/assets/09c0986d-70b9-4e7f-b2e6-bd653b49c26d)
+
+Cowling Texture and UV
+![TexturedCowling](https://github.com/user-attachments/assets/f96c02fe-dc70-4e71-bb41-24c52ca1c71a)
+![TexturedCowlingUV](https://github.com/user-attachments/assets/50b02938-dec4-4b69-a393-71773bfcd119)
+
+
