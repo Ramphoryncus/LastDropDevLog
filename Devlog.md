@@ -54,4 +54,6 @@ Cowling Texture and UV
 ![TexturedCowling](https://github.com/user-attachments/assets/f96c02fe-dc70-4e71-bb41-24c52ca1c71a)
 ![TexturedCowlingUV](https://github.com/user-attachments/assets/50b02938-dec4-4b69-a393-71773bfcd119)
 
+Fan Sound audio file screen shot from Audacity
+![FanSoundAudacity](https://github.com/user-attachments/assets/13d4096e-057c-41e8-8ca3-440660665187)
 
