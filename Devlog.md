@@ -16,3 +16,6 @@ For the offending box I reduced it in size and moved the larger cube next to it 
 ![OffendingBox](https://github.com/user-attachments/assets/f76ecb75-f46c-45dc-a9f2-935c4e646cc7)
 
 I ended up having to do these again in week two and week three because there were some issues with the project.
+---
+### Week 4
+
