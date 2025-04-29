@@ -115,7 +115,7 @@ I did add a few extra checkpoints in the summer level, I think there are all the
 
 ![SummerMovedCheckpoint](https://github.com/user-attachments/assets/ff802e48-3129-40a0-a8c3-ad4d45284251)
 
-I encountered a few irregularly scaled fans, I adjusted them to a uniform scale, because when they were spinning they did make me feel a little ill. They didn't look right it. The BP_WindTurbineCharacter meshes were also irregular they got the same treatment.
+I encountered a few irregularly scaled fans, I adjusted them to a uniform scale, because when they were spinning they did make me feel a little ill. They didn't look right at all. The BP_WindTurbineCharacter meshes were also irregular they got the same treatment.
 
 Irregular Fan
 ![IrregularFan](https://github.com/user-attachments/assets/d28e1a4b-1565-4a34-b6bc-1ec9013607e6)
